@@ -1,0 +1,38 @@
+.List{
+  width: 200px;
+  min-height: 40px;
+  line-height: 40px;
+  background-color: gray;
+  border-radius: 4px;
+  color:white;
+  margin-left: 10px;
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+}
+.letext{
+  margin: 0;
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+.AddCard{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+.AddCard:hover{
+  cursor: pointer;
+  background-color: lightgray;
+  border-radius: 4px;
+}
+.AddCardText{
+  margin: 0;
+}
+.material-icons-AddCard{
+  margin-left: 10px;
+}
+.SubmitCard{
+  margin-left: 10px;
+}

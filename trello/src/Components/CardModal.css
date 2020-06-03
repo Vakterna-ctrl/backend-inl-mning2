@@ -1,0 +1,59 @@
+.Card{
+  max-width: 95%;
+  background-color: white;
+  margin: auto;
+  line-height: 24px;
+  border-radius: 4px;
+  min-height: 25px;
+  color: black;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  word-break:break-all;
+}
+[data-rbd-drag-handle-context-id="1"] {
+  cursor: pointer;
+}
+.CardText{
+  margin: 0;
+  margin-left: 7px;
+  font-size: 16px;
+}
+#demo-one-modal{
+  background-color: white;
+  min-height: 200px;
+  width: 400px;
+}
+.description{
+  display: flex;
+  align-items: center;
+}
+.EditModal{
+  margin-left: 10px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.modalbutton{
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.CardDescription{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.CardTitle{
+  display: flex;
+  align-items: flex-end;
+}
+.Title {
+  margin-bottom: 0;
+  height: 36px;
+  margin-right: 20px;
+}
+.formTitle{
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-end;
+}

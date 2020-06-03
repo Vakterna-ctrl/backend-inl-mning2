@@ -1,0 +1,58 @@
+.AddList{
+  width: 200px;
+  min-height: 40px;
+  line-height: 40px;
+  background-color: gray;
+  border-radius: 4px;
+  color:white;
+  margin-left: 10px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.AddListText{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+}
+.material-iconsAdd{
+  position: absolute;
+  left:10px;
+  top:50%;
+  transform: translateY(-50%);
+}
+.AddListInput{
+  width: 200px;
+  min-height: 40px;
+  line-height: 40px;
+  background-color: gray;
+  border-radius: 4px;
+  color:white;
+  margin-left: 10px;
+  display: inline-block;
+}
+.listname{
+  margin-left:10px;
+}
+.AddListButton{
+  display: flex;
+  align-items: center;
+  margin-left:10px;
+  padding-bottom: 10px;
+}
+.listoflist{
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 400px;
+}
+.material-iconsClose{
+  cursor: pointer;
+}
+.SubmitList{
+  cursor: pointer;
+}
